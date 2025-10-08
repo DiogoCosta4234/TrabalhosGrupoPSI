@@ -24,6 +24,6 @@ class Program
             }
         }
 
-        Console.WriteLine("Maior número: {0}, índice: {1}.", maior, pos);
+        Console.WriteLine("Maior valor: {0}, índice: {1}.", maior, pos);
     }
 }
