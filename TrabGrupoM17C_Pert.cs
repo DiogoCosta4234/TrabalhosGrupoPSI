@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
+
 using System;
 
 class Program
@@ -9,12 +10,14 @@ class Program
         for (int i = 0; i < 10; i++)
         {
             Console.Write("Número: ");
+
             n[i] = int.Parse(Console.ReadLine());
         }
 
         int maior = n[0];
+        Console.WriteLine("maior{ 1}.", maior);
         int pos = 0;
-
+        Console.WriteLine("pos{ 1}.", pos);
         for (int i = 1; i < 10; i++)
         {
             if (n[i] > maior)
@@ -24,6 +27,8 @@ class Program
             }
         }
 
-        Console.WriteLine("Maior valor: {0}, índice: {1}.", maior, pos);
+        Console.WriteLine("Maximo: {0}e Indice: {1}.", maior, pos);
+
+
     }
 }
