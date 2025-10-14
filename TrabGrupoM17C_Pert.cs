@@ -30,5 +30,7 @@ class Program
         Console.WriteLine("Maximo: {0}e Indice: {1}.", maior, pos);
 
 
+        Console.WriteLine("Maior valor: {0}, índice: {1}.", maior, pos);
+        Console.WriteLine("*****************")
     }
 }
